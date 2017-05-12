@@ -1,0 +1,63 @@
+.image{
+	width: 210px;
+	height: 120px;
+}
+
+.image2{
+	width: 350px;
+	height: 160px;
+}
+
+
+.list{
+	margin-top: 5%;
+}
+.lateral{
+	margin-top: 1%;
+}
+
+.description{
+	display: none;
+}
+
+.more{
+	cursor:pointer;
+	display: inline;
+	margin-right: 1%;
+	margin-bottom: 2%;
+}
+
+.video{
+	text-decoration: none;
+	color:#000;
+
+}
+
+
+.video:hover{
+	text-decoration: none;
+	color:#167ac6;
+}
+
+
+.mycontainer{
+	margin-bottom: 4%;
+}
+
+.play{
+	position: absolute;
+	padding-top: 15%;
+	padding-left: 40%;
+	color: red;
+	display: none;
+}
+
+.play_2{
+	position: absolute;
+	padding-top: 20%;
+	padding-left: 40%;
+	color: red;
+	display: none;
+}
+
+

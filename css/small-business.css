@@ -1,0 +1,87 @@
+/*!
+ * Start Bootstrap - Small Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+.navbar-fixed-top{
+    background-color: #ffe03a;
+}
+.navbar-fixed-top .nav {
+    padding: 20px 0;
+
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+.navbar-fixed-top .nav li a{
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-fixed-top .nav li a:hover{
+    font-size: larger;
+    color: black;
+}   
+
+footer {
+    padding: 30px 0;
+}
+#logo{
+    width: 10rem;
+}
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+    
+
+}
+@media(max-width:768px) {
+    #logo{
+        width: 7rem;
+    }
+}
+
+
+
+footer{
+    background-color: #222;
+    border-color: #080808;
+    margin-top:4rem;
+}
+
+footer p{
+    color: #9d9d9d;
+}
+
+.cont_foot{
+    text-align: center;
+}
+
+.justify{
+    text-align:justify;
+}
+
+.main-content{
+    margin-top: 1rem;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.avatar{
+    width: 180px;
+    height: auto;
+    border-radius: 100px;
+}

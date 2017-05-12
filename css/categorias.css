@@ -1,0 +1,30 @@
+ul{
+	list-style: none;
+}
+
+.debates,.historia,.soluciones{
+	display: none;
+}
+
+.debates ul li a,.historia ul li a,.soluciones ul li a{
+	color:#000;
+	font-size: 20px;
+}
+
+.debates ul li a:hover,.historia ul li a:hover,.soluciones ul li a:hover{
+	text-decoration: none;
+	color:#167ac6;
+}
+
+.L,.L1,.L2,.L3{
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.D2,.S2,.H2{
+	display: none;
+}
+
+footer{
+	margin-top: 20%;
+}
